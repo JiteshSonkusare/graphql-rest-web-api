@@ -62,7 +62,7 @@ namespace GraphQL.Web.API
             // Add Schema to GraphQL
             app.UseGraphQL<EmployeeSchema>();
 
-            //Use this method run graphql query on graphql playground
+            //Use this method run graphql query on graphql playground UI
             app.UseGraphQLPlayground(new GraphQLPlaygroundOptions());
 
             app.UseMvc();
